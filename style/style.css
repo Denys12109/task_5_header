@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, rgba(9, 5, 47, .85) 0%, rgba(49, 29, 94, .85) 100%), url('../img/put-your-image-here.png')  left/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+}
+
+p {
+    line-height: 1.5;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 20px; 
+    overflow: hidden;
+}
+
+/* Стилізація хедеру */
+.header {
+    background-color: #311D5E;
+    position: relative;
+    text-align: center;
+    padding: 2px 0;
+    z-index: 1;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-container-block{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 20px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+
+}
+
+.header-nav-link:last-child {
+    margin-right: auto;
+}
+
+.header-nav-link:hover {
+    color: #00e0d0;
+    cursor: pointer;
+}
+
+/* Стилізація початокового екрану */
+.start-screen-container-text {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 120px;
+}
+
+.divider {
+    width: 50px;
+    height: 1px;
+    background-color: #00e0d0;
+    margin: 15px auto;
+    margin-top: 18px;
+}
+
+.start-screen-promo-text {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.start-screen-btn {
+    border: 2px solid #00e0d0;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #00e0d0;
+    font-family: 'Hammersmith One', sans-serif;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.start-screen-btn:hover {
+    background-color: #00e0d0;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+/* Стилізація крапочок */
+.dots-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+    margin: 0 2px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: #00e0d0;
+    border-color: #00e0d0;
+}
+
+.dot:hover {
+    background-color: #00e0d0;
+    cursor: pointer;
+}
+
